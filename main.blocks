@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="|va-3yQ+0mtRt{V6jiYL" x="271" y="15"></block><block type="pxt-on-start" id="/OE0!HA^-R]zH1|;#ME9" x="108" y="55"><statement name="HANDLER"><block type="device_show_leds" id="?#ubBxet6ArGRsQEu!]s"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="/OE0!HA^-R]zH1|;#ME9" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="?#ubBxet6ArGRsQEu!]s"><field name="LEDS">`
         # . # . # 
         . # . # . 
         . . # . . 
-        . # . # . 
+        . # . # # 
         . . . . .
-        `</field><next><block type="infrared_connect" id="r[|fj9oZ9a$Qf2c,j`:j"><field name="IR_pin">DigitalPin.P1</field></block></next></block></statement></block><block type="infrared_button" id="T^Xd4~?^._z[zjpSJ}V(" disabled-reasons="pxt_automatic_disabled" x="275" y="47"><field name="button">IrButton.Any</field></block></xml>
+        `</field></block></statement></block></xml>
