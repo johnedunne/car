@@ -1,7 +1,16 @@
-basic.showLeds(`
-    # . # . #
-    . # . # .
-    . . # . .
-    . # . # #
-    . . . . .
-    `)
+input.onButtonPressed(Button.AB, function () {
+    basic.showLeds(`
+        # . # # #
+        . # . # .
+        # . # . #
+        . # . # .
+        # . # . #
+        `)
+    basic.showLeds(`
+        . # . # .
+        # . # . #
+        . # . # .
+        # . # . #
+        . # . # .
+        `)
+})
